@@ -1,6 +1,8 @@
 {
   "data": {
     "demo": [],
+    "login": [],
+    "secure": [],
     "users": [
       {
         "email": "chris.hale@me.com",
@@ -49,6 +51,38 @@
         "createdAt": "2016-01-14T03:08:10.122Z",
         "updatedAt": "2016-01-14T03:08:10.122Z",
         "id": 6
+      },
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T03:37:41.771Z",
+        "updatedAt": "2016-01-14T03:37:41.771Z",
+        "id": 7
+      },
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T03:37:50.979Z",
+        "updatedAt": "2016-01-14T03:37:50.979Z",
+        "id": 8
+      },
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T03:43:12.500Z",
+        "updatedAt": "2016-01-14T03:43:12.500Z",
+        "id": 9
+      },
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T03:43:21.808Z",
+        "updatedAt": "2016-01-14T03:43:21.808Z",
+        "id": 10
       }
     ]
   },
@@ -70,7 +104,38 @@
         "type": "datetime"
       }
     },
+    "login": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "secure": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
     "users": {
+      "connection": {
+        "type": "string"
+      },
       "id": {
         "type": "integer",
         "autoIncrement": true,
@@ -88,7 +153,9 @@
   "counters": {
     "demo": {},
     "users": {
-      "id": 6
-    }
+      "id": 10
+    },
+    "login": {},
+    "secure": {}
   }
 }

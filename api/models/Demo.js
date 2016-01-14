@@ -8,9 +8,9 @@
 module.exports = {
 
   attributes: {
-    connection: 'someMongodbServer',
+    connection: 'redisDB',
     attributes: {
-      name: 'string',
+      username: 'string',
       password: 'string',
       email: {
         type: 'email',
