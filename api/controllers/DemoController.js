@@ -6,6 +6,13 @@
  */
 
 module.exports = {
-	
+	demoSocket:function(req,res){
+
+        if(req.isSocket){
+            // subscribe client to model changes
+            Users.watch(req.socket);
+            console.log( 'User subscribed to ' + req.socket.id );
+        }
+    }
 };
 

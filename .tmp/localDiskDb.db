@@ -1,0 +1,94 @@
+{
+  "data": {
+    "demo": [],
+    "users": [
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T02:17:55.479Z",
+        "updatedAt": "2016-01-14T02:17:55.479Z",
+        "id": 1
+      },
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T02:39:17.436Z",
+        "updatedAt": "2016-01-14T02:39:17.436Z",
+        "id": 2
+      },
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T03:00:52.120Z",
+        "updatedAt": "2016-01-14T03:00:52.120Z",
+        "id": 3
+      },
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T03:07:27.091Z",
+        "updatedAt": "2016-01-14T03:07:27.091Z",
+        "id": 4
+      },
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T03:08:00.756Z",
+        "updatedAt": "2016-01-14T03:08:00.756Z",
+        "id": 5
+      },
+      {
+        "email": "chris.hale@me.com",
+        "first_name": "chris",
+        "last_name": "hale",
+        "createdAt": "2016-01-14T03:08:10.122Z",
+        "updatedAt": "2016-01-14T03:08:10.122Z",
+        "id": 6
+      }
+    ]
+  },
+  "schema": {
+    "demo": {
+      "connection": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "users": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "demo": {},
+    "users": {
+      "id": 6
+    }
+  }
+}

@@ -16,4 +16,4 @@ RUN cd /web_app; npm install
 COPY . /web_app
 
 EXPOSE  4000
-CMD cd /web_app; pm2 start app.js -x -- --prod
+CMD cd /web_app; sails lift --prod
